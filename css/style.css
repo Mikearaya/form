@@ -1,0 +1,135 @@
+.repeatable-data-row td{
+    height: 11px;
+}
+       
+        input {
+            border: 0px;
+        }
+        
+@media screen {
+.print_block {
+    padding: 30px;
+    margin: 30px;
+    
+}
+
+
+}
+
+.text-input-tr {
+    line-height: 20px;
+}
+
+
+
+@media print {
+            
+    @page 
+          {
+            size: A4 landscape;
+            padding: 1px;
+            margin: 10px;
+            height: 100%;
+            width: 100%;
+           }
+           .print_block {
+    font-size: 12px;
+font-family: 'NyalaRegular';
+
+background-color: #FFF;
+padding: 3px;
+
+}  
+    
+.dont-print {
+    display: none !important;
+}       
+
+} 
+
+
+div.page-separator {
+    border: 1px dashed black;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    page-break-after: always;
+}
+      table {
+        display: table;
+        border-collapse: collapse;
+        border-spacing: 2px;
+        border-color: grey;
+      }
+
+        table.full-width {
+            width: 100%;
+            word-wrap: break-word;
+        }
+
+     
+
+        tr.text-box-line {
+            line-height: 9px;
+        }
+
+        .table-title {
+            font-weight: bold;
+        }
+
+        .form-header {
+            font-weight: bolder;
+            font-size: 2em;
+        }
+
+        input.tin-input {
+            width: 80px;
+        }
+
+        input.name-input {
+            width: 200px;
+        }
+
+        input.hire-date-input {
+            width: 70px;
+        }
+
+        input.salary-input {
+            width: 65px;
+        }
+
+        input.allowance-input {
+            width: 62px;
+        }
+
+        input.taxable-allowance-input {
+            width: 70px;
+        }
+
+        input.ot-input {
+            width: 55px;
+        }
+
+        input.other-benefits-input {
+            width: 55px;
+        }
+
+        input.taxable-salary-input {
+            width: 80px;
+        }
+
+        input.tax-input {
+            width: 62px;
+        }
+
+        input.cost-sharing-input {
+            width: 60px;
+        }
+
+        input.net-pay-input {
+            width: 65px;
+        }
+
+        input.signiture-input {
+            width: 30px;
+        }
