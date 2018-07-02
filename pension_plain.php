@@ -98,95 +98,86 @@
                 </td>
             </tr>
         </table>
-        <div class="table-title">ሠንጠረዥ 2 - ማስታወቂያ ዝርዝር መረጃ</div>
-
-        <table width="100%" border="1" style="width: 100%;  border-width: 1px;
-                border-collapse: collapse;">
-            <tbody>
-                <tr style="width: inherit" align="center" style="line-height: 15px;">
-                    <td> ሀ) ተ.ቁ</td>
-                    <td> ለ) የቋሚ የሠራተኛው የግብር ከፋይ መለያ ቁጥር (TIN)</td>
-                    <td> ሐ) የሠራተኛው ስም ፣ የአባት ስም እና የአያት ስም</td>
-                    <td> መ) የተቀጠሩበት ቀን /ቀን/ወር/ዓም/</td>
-                    <td> ሠ) የወር ደመወዝ /ብር/</td>
-                    <td> ረ) የሰራተኛው መዋጮ መጠን
-                        <br />7% /ብር/
-                    </td>
-                    <td>ሰ) የአሰሪው
-                        <br />መዋጮ መጠን
-                        <br />11% /ብር/</td>
-                    <td>ሸ) በአሰሪው የሚገባ ጥቅል መዋጮ
-                        <br />18% /ብር/ (ረ + ሰ)</td>
-                    <td>ፊርማ</td>
-                </tr>
-<?php for ($i = 1; $i <= 5; $i++ ) { ?>
-                <tr class='text-input-tr'>
-                    <td>
-                        <span id='row_no-1'><?php echo $i ?></span>
-                    </td>
-                    <td>
-                    &nbsp;
-                    </td>
-                    <td>
-                    &nbsp;
-                    </td>
-                    <td>
-                    &nbsp;
-                    </td>
-                    <td>
-                    &nbsp;
-                    </td>
-                    <td>
-                    &nbsp;
-                    </td>
-                    <td>
-                    &nbsp;
-                    </td>
-                    <td>
-                    &nbsp;
-                    </td>
-                    <td>
-                    &nbsp;
-                    </td>
-                </tr>
+        <div class="table-title">ክፍል 2 - ማስታወቂያ ዝርዝር መረጃ</div>
+        <table width="100%" class="full-width" border="1">
+            <tr align="center">
+                <td style="width: 20px;">ሀ) ተ.ቁ</td>
+                <td style="line-height: 12px;" width="10%">ለ) የቋሚ የሠራተኛው የግብር ከፋይ መለያ ቁጥር (TIN)</td>
+                <td width="25%">ሐ) የሠራተኛው ስም /ስም የአባት ስምና የአያት ስም/</td>
+                <td>መ) የተቀጠሩበት ቀን /ቀን/ወር/ዓም/</td>
+                <td>ሠ) የወር ደመወዝ /ብር/</td>
+                <td width="10%">ረ) የሰራተኛው መዋጮ መጠን
+                    <br />7% /ብር/</td>
+                <td style="line-height: 11px;" width="9%">ሰ) የአሰሪው
+                    <br />መዋጮ መጠን
+                    <br />11% /ብር/</td>
+                <td width="11%">ሸ) በአሰሪው የሚገባ ጥቅል መዋጮ
+                    <br />18% /ብር/ (ረ + ሰ)</td>
+                <td>ፊርማ</td>
+            </tr>
+<?php for ($i = 1; $i <5; $i++) { ?>
+            <tr class='text-input-tr'>
+                <td>
+                    <span id='row_no-b1'><?php echo $i ?></span>
+                </td>
+                <td>
+                &nbsp;
+                </td>
+                <td>
+                &nbsp;
+                </td>
+                <td>
+                &nbsp;
+                </td>
+                <td>
+                &nbsp;
+                </td>
+                <td>
+                &nbsp;
+                </td>
+                <td>
+                &nbsp;
+                </td>
+                <td>
+                &nbsp;
+                </td>
+                <td>
+                &nbsp;
+                </td>
+            </tr>
 <?php } ?>
-          
-                <tr>
-                    <td colspan="4" align="right">ከአባሪ ቅጾች ፣ የመጣ ድምር</td>
-                    <td>
-                    &nbsp;
-                    </td>
-                    <td>
-                    &nbsp;
-                    </td>
-                    <td>
-                    &nbsp;
-                    </td>
-                    <td>
-                    &nbsp;
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="4" align="right">ድምር</td>
-                    <td align="center">
-                        <em>(line 20)</em>
-                        &nbsp;
-                    </td>
-                    <td align="center">
-                        <em>(line 30)</em>
-                        &nbsp;
-                    </td>
-                    <td align="center">
-                        <em>(line 40)</em>
-                        &nbsp;
-                    </td>
-                    <td align="center">
-                        <em>(line 50)</em>
-                        &nbsp;
-                    </td>
-
-                </tr>
-            </tbody>
+            
+            <tr>
+                <td colspan="4" align="right">ከአባሪ ቅጾች የመጣ ድምር</td>
+                <td>
+                &nbsp;
+                </td>
+                <td>
+                    <input type="text" size="10" />
+                </td>
+                <td>
+                    <input type="text" size="10" />
+                </td>
+                <td>
+                    <input type="text" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4" align="right">ድምር</td>
+                <td>
+                &nbsp;
+                </td>
+                <td>
+                &nbsp;
+                </td>
+                <td>
+                &nbsp;
+                </td>
+                <td>
+                &nbsp;
+                &nbsp;
+                </td>
+            </tr>
         </table>
 
         <table width="100%" class="table-title full-width" border="0">
@@ -198,7 +189,7 @@
         </table>
         <table width="100%" class="full-width" border="0">
             <tr>
-                <td width="40%" valign="top">
+                <td width="45%" valign="top">
                     <table class="full-width" border="1">
                         <tr>
                             <td width="1%"></td>
@@ -283,7 +274,7 @@
                         </tr>
                     </table>
                 </td>
-                <td width="25%" valign="top">
+                <td width="20%" valign="top">
                     <table width="100%" class="data table4" border="1">
                         <tr>
                             <td width="42%">የተከፈለበት ቀን</td>
@@ -323,7 +314,7 @@
         <div class="table-title">ክፍል 5 - የትክክለኛነት ማረጋገጫ</div>
         <table width="100%" border="1">
             <tr>
-                <td width="32%" style="line-height: 20px;">በላይ የተገለፀው ማስታወቂያና የተሰጠው መረጃ በሙሉ የተሞላና ትክክለኛ መሆኑን አረጋግጣለሁ፡፡ ትክክለኛ ያልሆነ መረጃ ማቅረብ በግብር ሕጎችም ሆነ በወንጀለኛ መቅጫ ሕግ
+                <td width="50%" style="line-height: 20px;">በላይ የተገለፀው ማስታወቂያና የተሰጠው መረጃ በሙሉ የተሞላና ትክክለኛ መሆኑን አረጋግጣለሁ፡፡ ትክክለኛ ያልሆነ መረጃ ማቅረብ በግብር ሕጎችም ሆነ በወንጀለኛ መቅጫ ሕግ
                     የሚያስቀጣ መሆኑን እገነዘባለሁ፡፡</td>
                 <td>የግብር ከፋዩ/ሕጋዊ ወኪሉ
                     <br />ስም
@@ -333,7 +324,7 @@
                     &nbsp;
                 </td>
                 <td width="12%" valign="top" align="center">ማህተም</td>
-                <td width="30%">የግብር ባለሥልጣን ስም
+                <td width="20%">የግብር ባለሥልጣን ስም
                 &nbsp;
                     <br />ፊርማ
                     &nbsp;
@@ -490,9 +481,6 @@
                 &nbsp;
                 </td>
             </tr>
-            <!--<tr>
-                                    <td colspan="4" align="right"></td><td align="center"><em>(line 20)</em></td><td align="center"><em>(line 30)</em></td><td align="center"><em>(line 40)</em></td><td align="center"><em>(line 50)</em></td>
-                                </tr>-->
         </table>
 
         <table width="100%" class="full-width" border="0">

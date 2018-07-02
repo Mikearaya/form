@@ -1,16 +1,21 @@
 .repeatable-data-row td{
     height: 11px;
 }
-       
+
+
+table { page-break-inside:auto; }
+td    { border:1px solid black; }
+tr    { page-break-inside:auto; }
+    
         input {
             border: 0px;
         }
         
 @media screen {
 .print_block {
-    padding: 30px;
-    margin: 30px;
-    
+    padding: 10px;
+    margin: 10px;
+    font-size: 12px;;
 }
 
 
@@ -27,17 +32,18 @@
     @page 
           {
             size: A4 landscape;
-            padding: 1px;
-            margin: 10px;
+            padding: 5px;
+            margin: 15px;
             height: 100%;
             width: 100%;
+            font-size: normal;
            }
            .print_block {
-    font-size: 12px;
+    font-size: 15px;
 font-family: 'NyalaRegular';
 
 background-color: #FFF;
-padding: 3px;
+
 
 }  
     
@@ -58,13 +64,12 @@ div.page-separator {
       table {
         display: table;
         border-collapse: collapse;
-        border-spacing: 2px;
-        border-color: grey;
+
       }
 
         table.full-width {
             width: 100%;
-            word-wrap: break-word;
+
         }
 
      
@@ -132,4 +137,4 @@ div.page-separator {
 
         input.signiture-input {
             width: 30px;
-        }
+}

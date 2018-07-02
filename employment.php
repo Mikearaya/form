@@ -262,11 +262,11 @@
                 <table width="100%" class="full-width" border="0">
                     <tr>
                         <td width="30%" valign="top">
-                            <table width="100%"  border="1" style="line-height: 17px;">
+                            <table width="100%"  border="1" style="line-height: 15px;">
                                 <tr>
                                     <td width="1%">10</td>
-                                    <td width="85%">በዚህ ወር ደመወዝ የሚከፈላቸው የሠራተኞች ብዛት</td>
-                                    <td width="10%">
+                                    <td width="70%">በዚህ ወር ደመወዝ የሚከፈላቸው የሠራተኞች ብዛት</td>
+                                    <td width="5%">
                                         <input type="text" name="months-salaried" id="months_salaried" style="text-align: center;" />
                                     </td>
                                 </tr>
@@ -291,7 +291,7 @@
                                 <tr style="line-height: 28px;">
                                     <td width="1%">ተ.ቁ</td>
                                     <td width="20%">የሠራተኛው የግብር ከፋይ ቁጥር</td>
-                                    <td width="30%">የሠራተኛው /ስም የአባት ስምና የአያት ስም/</td>
+                                    <td width="20%">የሠራተኛው /ስም የአባት ስምና የአያት ስም/</td>
                                 </tr>
                                 <tr>
                                     <td>&nbsp;</td>
@@ -331,8 +331,8 @@
                                 </tr>
                             </table>
                         </td>
-                        <td width="25%" valign="top">
-                            <table width="100%" class="data table4" border="1" style="line-height: 21px;">
+                        <td width="20%" valign="top">
+                            <table width="100%"  border="1" style="line-height: 21px;">
                                 <tr>
                                     <td width="42%">የተከፈለበት ቀን</td>
                                     <td>

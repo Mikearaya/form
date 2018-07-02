@@ -3,14 +3,19 @@
 <head>
     <title>Pension</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet" />
 
 </head>
 
 <body>
 
-
+<style>
+  @media print {
+      @page {
+        font-size: larger;
+      }
+    }
+</style>
 
 
     <div class="print_block">
@@ -111,27 +116,24 @@
                 </td>
             </tr>
         </table>
-        <div class="table-title">ሠንጠረዥ 2 - ማስታወቂያ ዝርዝር መረጃ</div>
 
-        <table width="100%" border="1" style="width: 100%;  border-width: 1px;
-                border-collapse: collapse;">
-            <tbody>
-                <tr style="width: inherit" align="center" style="line-height: 15px;">
-                    <td> ሀ) ተ.ቁ</td>
-                    <td> ለ) የቋሚ የሠራተኛው የግብር ከፋይ መለያ ቁጥር (TIN)</td>
-                    <td> ሐ) የሠራተኛው ስም ፣ የአባት ስም እና የአያት ስም</td>
-                    <td> መ) የተቀጠሩበት ቀን /ቀን/ወር/ዓም/</td>
-                    <td> ሠ) የወር ደመወዝ /ብር/</td>
-                    <td> ረ) የሰራተኛው መዋጮ መጠን
-                        <br />7% /ብር/
-                    </td>
-                    <td>ሰ) የአሰሪው
-                        <br />መዋጮ መጠን
-                        <br />11% /ብር/</td>
-                    <td>ሸ) በአሰሪው የሚገባ ጥቅል መዋጮ
-                        <br />18% /ብር/ (ረ + ሰ)</td>
-                    <td>ፊርማ</td>
-                </tr>
+       <div class="table-title">ክፍል 2 - ማስታወቂያ ዝርዝር መረጃ</div>
+        <table width="100%" class="full-width" border="1">
+            <tr align="center">
+                <td style="width: 20px;">ሀ) ተ.ቁ</td>
+                <td style="line-height: 12px;" width="10%">ለ) የቋሚ የሠራተኛው የግብር ከፋይ መለያ ቁጥር (TIN)</td>
+                <td width="25%">ሐ) የሠራተኛው ስም /ስም የአባት ስምና የአያት ስም/</td>
+                <td>መ) የተቀጠሩበት ቀን /ቀን/ወር/ዓም/</td>
+                <td>ሠ) የወር ደመወዝ /ብር/</td>
+                <td width="10%">ረ) የሰራተኛው መዋጮ መጠን
+                    <br />7% /ብር/</td>
+                <td style="line-height: 11px;" width="9%">ሰ) የአሰሪው
+                    <br />መዋጮ መጠን
+                    <br />11% /ብር/</td>
+                <td width="11%">ሸ) በአሰሪው የሚገባ ጥቅል መዋጮ
+                    <br />18% /ብር/ (ረ + ሰ)</td>
+                <td>ፊርማ</td>
+            </tr>
 <?php for($i = 1; $i <= 5; $i++) { ?>
                 <tr class='text-input-tr'>
                     <td>
